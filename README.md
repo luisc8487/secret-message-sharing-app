@@ -15,4 +15,4 @@ This project is a simple web-based Secret Message Sharing App built using HTML, 
 ### 1. Creating a Secret Message
 
 - The user types a message in the input box.
-  - The message is encoded using `btoa()`.
+- The message is encoded using `btoa()`.
