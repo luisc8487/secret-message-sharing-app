@@ -16,3 +16,38 @@ This project is a simple web-based Secret Message Sharing App built using HTML, 
 
 - The user types a message in the input box.
 - The message is encoded using `btoa()`.
+- A new URL is generated with the encoded message as a query parameter.
+- The user can copy and share the URL with a friend.
+
+### 2. Viewing the Secret Message
+
+- The recipient opens the shared URL in their browser.
+- The app extracts the encoded message from the URL.
+- The encoded message is decoded using `atob()`.
+- The decoded message is displayed on the screen.
+
+## How to Run the App
+
+To use the application:
+
+1. Visit this link: [Secret Message Sharing App.](https://secret-message-sharing-app-phi.vercel.app/)
+2. Enter a message in the input field and click the Generate Secret URL button.
+3. Copy the generated URL and share it with a friend.
+4. When your friend opens the URL in their browser, the secret message will be displayed.
+
+## Technologies Used
+
+- **HTML:** For structuring the web page.
+- **JavaScript:** For encoding/decoding messages and DOM manipulation.
+- **Materalize CSS:** For a responsive and clean UI.
+
+## Future Enhancements
+
+1. Add a button to automatically copy the generated URL to the clipboard.
+2. Improve the UI design by adding more animations and styles.
+3. Add validation to handle incorrect or empty inputs more gracefully.
+4. Implement password-protected encryption for additional security.
+
+## Conclusion
+
+This simple Secret Message Sharing App demonstrates how to use Base64 encoding/decoding, URL query parameters, and DOM manipulation in a practical project. It’s a fun and educational way to learn about web development and secure communication.
