@@ -2,7 +2,7 @@
 
 This project is a simple web-based Secret Message Sharing App built using HTML, JavaScript, Materialize CSS, and JavaScript functions `btoa()` and `atob()` for encoding and decoding messages. The app allows users to create an encrypted message, generate a URL containing the message, and share it with a friend. When the recipient opens the URL, the secret message will be decrypted and displayed on their screen.
 
-![secret-message-sharing](https://github.com/user-attachments/assets/50fc23f9-197e-4a90-a9ae-e5a49b609a68)
+![secret-message](https://github.com/user-attachments/assets/15ccc4a4-be58-4d33-9d96-f54ca976381b)
 
 ### Features
 
